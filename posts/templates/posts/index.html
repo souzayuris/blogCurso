@@ -36,6 +36,11 @@
                 </div>
                 {% endfor %}
             </div>
+            <!--
+            {{ connection.queries|length }}  Exibe a quantidade de consultas SQL que estão sendo feitas
+            <p>
+            {{ connection.queries }}
+            </p>-->
             <!--/CONTENT-->
     {% include 'parciais/_pagination.html' %}
 {% endblock %}
